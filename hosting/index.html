@@ -4,173 +4,115 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hosting Company Landing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="hero" id="home">
-  <nav class="nav container">
-    <a href="#home" class="logo"><span class="logo-mark"></span>Hostly</a>
-    <ul class="menu">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#reviews">Reviews</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+<header class="header">
+  <a href="#" class="logo">Hosting Company Landing</a>
+  <nav class="nav">
+    <a href="#">Contact</a><a href="#pricing">Pricing</a><a href="#">About</a><a href="#services">Services</a>
+    <a href="#">Blog</a><a href="#">Service</a><a href="#">Home</a><a href="#" class="active">Landing</a>
+    <a href="#" class="cart" aria-label="Cart"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M7 18a2 2 0 100 4 2 2 0 000-4zm10 0a2 2 0 100 4 2 2 0 000-4zM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 007 17h12v-2H7.4l1.1-2h7.5a2 2 0 001.7-1l3.6-6.5A1 1 0 0020.4 4H5.2l-.9-2H1z"/></svg></a>
   </nav>
+</header>
 
-  <div class="container hero-grid">
+<section class="hero">
+  <div class="wrap hero-row">
     <div class="hero-text">
       <h1>Premium Hosting Services</h1>
       <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae donec velit neque</p>
-      <a href="#pricing" class="btn btn-pink">Get Web Hosting</a>
+      <a href="#" class="btn btn-dark">Get Web Hosting</a>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <div class="rack">
-        <div class="unit"><i></i><i></i><b></b></div>
-        <div class="unit"><i></i><i></i><b></b></div>
-        <div class="unit"><i></i><i></i><b></b></div>
+    <div class="hero-img"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_01.png" alt="Hosting illustration"></div>
+  </div>
+  
+<svg class="wave wave-b" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" opacity=".3" transform="translate(0,-26)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" opacity=".55" transform="translate(0,-12)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/></svg>
+</section>
+
+<section class="domains wrap">
+  <div class="domain"><b>.com</b><span>$8.99/yr</span></div>
+  <div class="domain"><b>.net</b><span>$8.99/yr</span></div>
+  <div class="domain"><b>.org</b><span>$8.99/yr</span></div>
+  <div class="domain"><b>.gov</b><span>$8.99/yr</span></div>
+</section>
+
+<section class="services" id="services">
+  <div class="svc-row">
+    <div class="svc-col col-1">
+      <div class="svc-head">
+        <span class="tag">Our Services</span>
+        <h2>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consect adipiscing amet sit dolor</h2>
+        <a href="#" class="btn btn-blue">All Services</a>
       </div>
-      <div class="cloud c1"></div>
-      <div class="cloud c2"></div>
+      <article class="svc "><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_05.png" alt=""><span class="line"></span><h3>Uptime Guarantee</h3><p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p><a href="#" class="more">Click Here <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="6" fill="currentColor"/><path d="M4 3.5L7 6L4 8.5" stroke="#fff" stroke-width="1.4" fill="none"/></svg></a></article>
     </div>
-  </div>
-
-  <div class="container domains">
-    <div><strong>.com</strong> $8.99/yr</div>
-    <div><strong>.net</strong> $8.99/yr</div>
-    <div><strong>.org</strong> $8.99/yr</div>
-    <div><strong>.gov</strong> $8.99/yr</div>
-  </div>
-</header>
-
-<section class="section" id="services">
-  <div class="container">
-    <div class="head">
-      <span class="tag">Our Services</span>
-      <h2>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consect adipiscing amet sit dolor</h2>
-      <a href="#" class="btn btn-purple">All Services</a>
+    <div class="svc-col col-2">
+      <article class="svc "><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_03.png" alt=""><span class="line"></span><h3>Secure Backups</h3><p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p><a href="#" class="more">Click Here <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="6" fill="currentColor"/><path d="M4 3.5L7 6L4 8.5" stroke="#fff" stroke-width="1.4" fill="none"/></svg></a></article>
     </div>
-    <div class="grid-4">
-      <article class="card">
-        <div class="icon">&#9201;</div>
-        <h3>Uptime Guarantee</h3>
-        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content.</p>
-        <a href="#" class="link">Click Here</a>
-      </article>
-      <article class="card">
-        <div class="icon">&#9729;</div>
-        <h3>Secure Backups</h3>
-        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content.</p>
-        <a href="#" class="link">Click Here</a>
-      </article>
-      <article class="card">
-        <div class="icon">&#9919;</div>
-        <h3>Safe &amp; Secure</h3>
-        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content.</p>
-        <a href="#" class="link">Click Here</a>
-      </article>
-      <article class="card">
-        <div class="icon">&#9742;</div>
-        <h3>Dedicated Support</h3>
-        <p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content.</p>
-        <a href="#" class="link">Click Here</a>
-      </article>
+    <div class="svc-col col-3">
+      <article class="svc "><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Icon_04.png" alt=""><span class="line"></span><h3>Safe &amp; Secure</h3><p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p><a href="#" class="more">Click Here <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="6" fill="currentColor"/><path d="M4 3.5L7 6L4 8.5" stroke="#fff" stroke-width="1.4" fill="none"/></svg></a></article>
+      <article class="svc "><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Big-Icon_02.png" alt=""><span class="line"></span><h3>Dedicated Support</h3><p>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p><a href="#" class="more">Click Here <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="6" fill="currentColor"/><path d="M4 3.5L7 6L4 8.5" stroke="#fff" stroke-width="1.4" fill="none"/></svg></a></article>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="features">
-  <div class="container split">
-    <div>
+<section class="features wrap">
+  <div class="split">
+    <div class="half">
       <span class="tag">Our Features</span>
       <h2>Enjoy Preconfigured Setups or Full Control</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar libero eget enim imperdiet, et finibus tortor tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim viverra mauris non laoreet.</p>
-      <div class="mini-grid">
-        <div class="mini"><span class="dot">&#9889;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-        <div class="mini"><span class="dot">&#9881;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-        <div class="mini"><span class="dot">&#9733;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-        <div class="mini"><span class="dot">&#9729;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-        <div class="mini"><span class="dot">&#9993;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-        <div class="mini"><span class="dot">&#9873;</span><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
-      </div>
     </div>
-    <div class="art-box" aria-hidden="true">
-      <div class="window"><span></span><span></span><span></span>
-        <div class="bars"><i style="width:80%"></i><i style="width:55%"></i><i style="width:70%"></i><i style="width:40%"></i></div>
-      </div>
-    </div>
+    <div class="half"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_02.png" alt=""></div>
+  </div>
+  <div class="feat-list">
+    <div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_09.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div><div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_17.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div><div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_08.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div><div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_06.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div><div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_20.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div><div class="feat"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_13.png" alt=""><p>Mauris dignissim viverra mauris non laoreet. Curabitur ac consectetur</p></div>
   </div>
 </section>
 
-<section class="section" id="pricing">
-  <div class="container">
-    <div class="head center">
-      <span class="tag">Pricing</span>
-      <h2>Web Hosting Plans &amp; Pricing</h2>
-    </div>
-    <div class="grid-3">
-      <article class="plan">
-        <h3>Shared Hosting</h3>
-        <div class="price">$3.99<small>/month</small></div>
-        <ul>
-          <li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li>
-          <li>256 GB Bandwidth/mo</li><li>24/7 Support</li><li>Unlimited Email Addresses</li>
-        </ul>
-        <a href="#" class="btn btn-purple">Get Started</a>
-      </article>
-      <article class="plan featured">
-        <h3>Pro Plan</h3>
-        <div class="price">$12.99<small>/month</small></div>
-        <ul>
-          <li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li>
-          <li>256 GB Bandwidth/mo</li><li>24/7 Support</li><li>Unlimited Email Addresses</li>
-        </ul>
-        <a href="#" class="btn btn-pink">Get Started</a>
-      </article>
-      <article class="plan">
-        <h3>Private Hosting</h3>
-        <div class="price">$29.99<small>/month</small></div>
-        <ul>
-          <li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li>
-          <li>256 GB Bandwidth/mo</li><li>24/7 Support</li><li>Unlimited Email Addresses</li>
-        </ul>
-        <a href="#" class="btn btn-purple">Get Started</a>
-      </article>
-    </div>
+<section class="pricing wrap" id="pricing">
+  <div class="center-head"><span class="tag">Pricing</span><h2>Web Hosting Plans &amp; Pricing</h2></div>
+  <div class="plans">
+    <article class="plan orange"><h4>Shared Hosting</h4><div class="price"><sup>$</sup>3.99<small>/month</small></div><ul><li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li><li>256 GB Bandwidth/mo</li><li class="off">24/7 Support</li><li class="off">Unlimited Email Addresses</li></ul><a href="#" class="pbtn">Get Started</a></article>
+    <article class="plan blue"><h4>Pro Plan</h4><div class="price"><sup>$</sup>12.99<small>/month</small></div><ul><li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li><li>256 GB Bandwidth/mo</li><li class="">24/7 Support</li><li class="off">Unlimited Email Addresses</li></ul><a href="#" class="pbtn">Get Started</a></article>
+    <article class="plan green"><h4>Private Hosting</h4><div class="price"><sup>$</sup>29.99<small>/month</small></div><ul><li>25000 visits per month</li><li>1 Site</li><li>50GB Storage</li><li>256 GB Bandwidth/mo</li><li class="">24/7 Support</li><li class="">Unlimited Email Addresses</li></ul><a href="#" class="pbtn">Get Started</a></article>
   </div>
 </section>
 
-<section class="section alt" id="files">
-  <div class="container split">
-    <div>
+<section class="files wrap">
+  <div class="split">
+    <div class="half">
       <span class="tag">File Management</span>
       <h2>Safe and Secure Web Hosting &amp; Backups</h2>
-      <div class="row"><span class="dot">&#128193;</span><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div>
-      <div class="row"><span class="dot">&#128274;</span><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div>
-      <div class="row"><span class="dot">&#9729;</span><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div>
-      <a href="#" class="btn btn-purple">Learn More</a>
+      <div class="item"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_03.png" alt=""><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div><div class="item"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_05.png" alt=""><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div><div class="item"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Small-Icon_02.png" alt=""><div><h4>Mauris dignissim vive</h4><p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna</p></div></div>
     </div>
-    <div class="art-box folder" aria-hidden="true"><div class="file f1"></div><div class="file f2"></div><div class="file f3"></div></div>
+    <div class="half">
+      <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_03.png" alt="">
+      <a href="#" class="btn btn-blue">Learn More</a>
+    </div>
   </div>
 </section>
 
-<section class="cta" id="contact">
-  <div class="container cta-grid">
-    <div>
-      <h2>Talk With an Expert to Get Started Today!</h2>
-      <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta.</p>
-      <a href="#" class="btn btn-pink">Live Chat</a>
-    </div>
-    <div class="chat" aria-hidden="true"><span>Hi! How can we help?</span><span class="me">I need hosting</span></div>
+<section class="expert">
+  <svg class="wave wave-t" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" opacity=".3" transform="translate(0,-26)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" opacity=".55" transform="translate(0,-12)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/></svg>
+  
+  <div class="expert-in">
+    <h2>Talk With an Expert to Get Started Today!</h2>
+    <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta.</p>
+    <a href="#" class="btn btn-dark">Live Chat</a>
   </div>
+  
+<svg class="wave wave-b" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" opacity=".3" transform="translate(0,-26)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" opacity=".55" transform="translate(0,-12)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/></svg>
 </section>
 
-<section class="section">
-  <div class="container split">
-    <div class="art-box setup" aria-hidden="true"><div class="install"><i></i><i></i><i></i><i></i></div></div>
-    <div>
+<section class="setup wrap">
+  <div class="split">
+    <div class="half"><img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/08/1X_Hosting_Illustration_04.png" alt=""></div>
+    <div class="half">
       <span class="tag">Easy Setup</span>
       <h2>One Click Installs</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar libero eget enim imperdiet, et finibus tortor tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -180,42 +122,41 @@
         <li>Vestibulum ante ipsum primis in faucibus orci</li>
         <li>Mauris dignissim viverra mauris non laoreet.</li>
       </ul>
-      <a href="#" class="btn btn-purple">Click Here</a>
+      <a href="#" class="btn btn-blue">Click Here</a>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="reviews">
-  <div class="container">
-    <div class="head center">
-      <span class="tag">What They’re Saying</span>
-      <h2>Customer Testimonials</h2>
-      <p>Your content goes here. Edit or remove this text inline or in the module Content settings.</p>
-    </div>
-    <div class="grid-3">
-      <figure class="quote"><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.</blockquote><figcaption><span class="avatar">JS</span><div><strong>Jane Smith</strong><br>Dev Lead, Divi Corner</div></figcaption></figure>
-      <figure class="quote"><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.</blockquote><figcaption><span class="avatar">DG</span><div><strong>Dan Greene</strong><br>IT Director, Monarch Inc.</div></figcaption></figure>
-      <figure class="quote"><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.</blockquote><figcaption><span class="avatar">JD</span><div><strong>John Doe</strong><br>CEO, Extra Space</div></figcaption></figure>
-    </div>
+<section class="reviews">
+  <div class="center-head"><span class="tag">What They’re Saying</span><h2>Customer Testimonials</h2></div>
+  <div class="tgrid">
+    <figure class="tcard"><span class="avatar a">JS</span><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</blockquote><figcaption><strong>Jane Smith</strong><span>Dev Lead, Divi Corner</span></figcaption></figure>
+    <figure class="tcard"><span class="avatar b">DG</span><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</blockquote><figcaption><strong>Dan Greene</strong><span>IT Director, Monarch Inc.</span></figcaption></figure>
+    <figure class="tcard"><span class="avatar c">JD</span><blockquote>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</blockquote><figcaption><strong>John Doe</strong><span>CEO, Extra Space</span></figcaption></figure>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="head center"><h2>Satisfaction Guaranteed</h2></div>
-    <div class="grid-3">
-      <article class="card center"><h3>24/7 Award Winning Support</h3><p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.</p><a href="#" class="btn btn-purple">Contact Us</a></article>
-      <article class="card center"><h3>30 Day Money Back Guarantee</h3><p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat.</p><a href="#" class="btn btn-purple">Learn More</a></article>
-      <article class="card center"><h3>30 Days of Free Hosting</h3><p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis.</p><a href="#" class="btn btn-pink">Learn How</a></article>
-    </div>
+<section class="guarantee wrap">
+  <div class="center-head"><h2>Satisfaction Guaranteed</h2></div>
+  <div class="gcards">
+    <article class="gcard g-blue"><h3>24/7 Award Winning Support</h3><p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada.</p><a href="#" class="btn btn-dark">Contact Us</a></article>
+    <article class="gcard g-orange"><h3>30 Day Money Back Guarantee</h3><p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada.</p><a href="#" class="btn btn-dark">Learn More</a></article>
+  </div>
+</section>
+
+<section class="free">
+  <svg class="wave wave-t" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" opacity=".3" transform="translate(0,-26)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" opacity=".55" transform="translate(0,-12)" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/><path fill="#fff" d="M0,110C120,150 240,135 360,95C400,80 430,110 470,170C520,250 640,240 760,190C860,150 960,130 1060,70C1160,15 1300,40 1440,75L1440,330L0,330Z"/></svg>
+  
+  <div class="free-in">
+    <h2>30 Days of Free Hosting</h2>
+    <p>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia</p>
+    <a href="#" class="btn btn-dark">Learn How</a>
   </div>
 </section>
 
 <footer class="footer">
-  <div class="container foot">
-    <div class="social"><a href="#">Facebook</a><a href="#">X</a><a href="#">RSS</a></div>
-    <p>Designed by Elegant Themes | Powered by WordPress</p>
-  </div>
+  <p>Designed by <a href="#">Elegant Themes</a> | Powered by <a href="#">WordPress</a></p>
+  <div class="social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">X</a><a href="#" aria-label="RSS">&#9679;</a></div>
 </footer>
 
 </body>
